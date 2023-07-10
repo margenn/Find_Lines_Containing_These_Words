@@ -1,8 +1,6 @@
 # Find_Lines_Containing_These_Words
 jEdit Macro - Hypersearch and return only lines that contains all words entered in the dialog
 
-
-
 ### Installation:
 
 
@@ -43,16 +41,14 @@ The editor will do a hypersearch and return all lines containg ALL words entered
 ### Example:
 
 Let's suppose you have an text with:
-```
-The oranges are ready to be picked.
+<pre><code>The oranges are ready to be picked.
 Oranges, apples and bananas are out of stock.
 Strawberries and cherries are red.
 The apples and the oranges are ripe.
-```
+</code></pre>
 
 Type  **"orang appl"**  in the macro dialog box and the editor will return these lines:
 
-```
-Oranges, apples and bananas are out of stock.
-The apples and the oranges are ripe.
-```
+<pre><code><b>Orang</b>es, <b>appl</b>es and bananas are out of stock.
+The <b>appl</b>es and the <b>orang</b>es are ripe.
+</code></pre>
