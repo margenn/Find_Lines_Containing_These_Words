@@ -23,7 +23,7 @@ Macros > Rescan Macros
 
 
 
-### Associate with a keyboard shortcut:
+### Associate with a keyboard shortcut (Eg: F7):
 
 Utilities > Global Options > Shortcuts > Action Set "Macros" > Filter "Find These" > Choose your primary shortcut (Eg: F7)
 
@@ -36,6 +36,8 @@ Press your shortcut "F7" (or any other of your choice)
 Write any number of words separated by space and press ENTER
 
 The editor will do a hypersearch and return all lines containg ALL words entered in any order. Case insensitive.
+
+If you type TWO words, the hypersearch will include multiline search. It will search all text where the distance between words is 100 chars regardless how many line breaks are between them.
 
 
 ### Example:
